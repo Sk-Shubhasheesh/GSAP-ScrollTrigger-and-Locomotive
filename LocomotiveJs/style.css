@@ -24,3 +24,16 @@ html,body{
     width: 100%;
     background-color: rgb(9, 77, 89); 
 }
+#page2 #image-div{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale:1.3;
+}
