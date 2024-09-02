@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(131, 208, 222); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(97, 192, 209); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(9, 77, 89); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
